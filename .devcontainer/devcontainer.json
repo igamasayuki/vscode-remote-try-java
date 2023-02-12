@@ -1,0 +1,24 @@
+//vscode-remote-try-java
+//https://github.com/microsoft/vscode-remote-try-java
+
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/java
+{
+	"name": "Java",
+	// Dockerfileでイメージ・コンテナを作成
+	"dockerFile": "Dockerfile",
+	// リモート先のVS Codeにインストールする拡張機能
+	"extensions": [
+		"streetsidesoftware.code-spell-checker",
+		"vscjava.vscode-java-pack"
+	],
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "java -version",
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
