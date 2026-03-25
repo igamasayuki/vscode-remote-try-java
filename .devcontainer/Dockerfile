@@ -1,1 +1,1 @@
-FROM openjdk:17-jdk-slim
+FROM mcr.microsoft.com/devcontainers/java:21
